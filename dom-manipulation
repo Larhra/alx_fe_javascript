@@ -167,8 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
       await fetchQuotesFromServer();
       await postQuotesToServer();
     }
-  
-    // Sync every 10 seconds (simulation of periodic syncing)
+      // Sync every 10 seconds (simulation of periodic syncing)
     setInterval(syncQuotes, 10000);
   
     newQuoteBtn.addEventListener("click", showRandomQuote);
